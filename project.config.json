@@ -1,0 +1,30 @@
+{
+    "project": {
+      "name": "2022-07-10-f1-standings",
+      "slug": "2022-07-10-f1-standings"
+    },
+    "s3": {
+      "bucket": "graphics.axios.com",
+      "folder": "2022-07-10-f1-standings"
+    },
+    "google": {
+      "doc": [
+        {
+          "id": "",
+          "filepath": "src/data/copy.json"
+        }
+      ],
+      "sheet": [
+        {
+          "id": "",
+          "gid": "",
+          "filepath": ""
+        }
+      ]
+    },
+    "files": [],
+    "isFullbleed": false,
+    "appleFallback": "<%= meta.appleFallback %>",
+    "newsletterFallback": "<%= meta.newsletterFallback %>",
+    "embedVersion": "1.0"  
+  }

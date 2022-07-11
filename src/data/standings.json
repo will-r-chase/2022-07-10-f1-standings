@@ -1,0 +1,128 @@
+[
+  {
+    "Rank": 1,
+    "Driver": "M. Verstappen",
+    "Team": "Red Bull",
+    "Pts": 208
+  },
+  {
+    "Rank": 2,
+    "Driver": "C. Leclerc",
+    "Team": "Ferrari",
+    "Pts": 170
+  },
+  {
+    "Rank": 3,
+    "Driver": "S. Pérez",
+    "Team": "Red Bull",
+    "Pts": 151
+  },
+  {
+    "Rank": 4,
+    "Driver": "C. Sainz",
+    "Team": "Ferrari",
+    "Pts": 133
+  },
+  {
+    "Rank": 5,
+    "Driver": "G. Russell",
+    "Team": "Mercedes",
+    "Pts": 128
+  },
+  {
+    "Rank": 6,
+    "Driver": "L. Hamilton",
+    "Team": "Mercedes",
+    "Pts": 109
+  },
+  {
+    "Rank": 7,
+    "Driver": "L. Norris",
+    "Team": "McLaren",
+    "Pts": 64
+  },
+  {
+    "Rank": 8,
+    "Driver": "E. Ocon",
+    "Team": "Alpine",
+    "Pts": 52
+  },
+  {
+    "Rank": 9,
+    "Driver": "V. Bottas",
+    "Team": "Alfa Romeo",
+    "Pts": 46
+  },
+  {
+    "Rank": 10,
+    "Driver": "F. Alonso",
+    "Team": "Alpine",
+    "Pts": 29
+  },
+  {
+    "Rank": 11,
+    "Driver": "K. Magnussen",
+    "Team": "Haas",
+    "Pts": 22
+  },
+  {
+    "Rank": 12,
+    "Driver": "D. Ricciardo",
+    "Team": "McLaren",
+    "Pts": 17
+  },
+  {
+    "Rank": 13,
+    "Driver": "P. Gasly",
+    "Team": "AlphaTauri",
+    "Pts": 16
+  },
+  {
+    "Rank": 14,
+    "Driver": "S. Vettel",
+    "Team": "Aston Martin",
+    "Pts": 15
+  },
+  {
+    "Rank": 15,
+    "Driver": "M. Schumacher",
+    "Team": "Haas",
+    "Pts": 12
+  },
+  {
+    "Rank": 16,
+    "Driver": "Y. Tsunoda",
+    "Team": "AlphaTauri",
+    "Pts": 11
+  },
+  {
+    "Rank": 17,
+    "Driver": "Z. Guanyu",
+    "Team": "Alfa Romeo",
+    "Pts": 5
+  },
+  {
+    "Rank": 18,
+    "Driver": "A. Albon",
+    "Team": "Williams",
+    "Pts": 3
+  },
+  {
+    "Rank": 19,
+    "Driver": "L. Stroll",
+    "Team": "Aston Martin",
+    "Pts": 3
+  },
+  {
+    "Rank": 20,
+    "Driver": "N. Latifi",
+    "Team": "Williams",
+    "Pts": 0
+  },
+  {
+    "Rank": 21,
+    "Driver": "N. Hülkenberg",
+    "Team": "Aston Martin",
+    "Pts": 0
+  }
+]

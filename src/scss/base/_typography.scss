@@ -1,0 +1,156 @@
+@use "../abstracts" as *;
+
+@font-face {
+  font-family: NB International Pro;
+  src: url(https://static.axios.com/fonts/axios-site/nb_international_pro_regular.eot);
+  src: url(https://static.axios.com/fonts/axios-site/nb_international_pro_regular.eot#iefix)
+      format("embedded-opentype"),
+    url(https://static.axios.com/fonts/axios-site/nb_international_pro_regular.woff)
+      format("woff"),
+    url(https://static.axios.com/fonts/axios-site/nb_international_pro_regular.ttf)
+      format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: NB International Pro;
+  src: url(https://static.axios.com/fonts/axios-site/nb_international_pro_bold.eot);
+  src: url(https://static.axios.com/fonts/axios-site/nb_international_pro_bold.eot#iefix)
+      format("embedded-opentype"),
+    url(https://static.axios.com/fonts/axios-site/nb_international_pro_bold.woff)
+      format("woff"),
+    url(https://static.axios.com/fonts/axios-site/nb_international_pro_bold.ttf)
+      format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: NB International Pro Mono;
+  src: url(https://static.axios.com/fonts/axios-site/nb_international_pro_mono.eot);
+  src: url(https://static.axios.com/fonts/axios-site/nb_international_pro_mono.eot#iefix)
+      format("embedded-opentype"),
+    url(https://static.axios.com/fonts/axios-site/nb_international_pro_mono.woff)
+      format("woff"),
+    url(https://static.axios.com/fonts/axios-site/nb_international_pro_mono.ttf)
+      format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*----------  Uncomment if using Atiza font  ----------*/
+
+/* @font-face {
+  font-family: Atiza;
+  src: url(https://static.axios.com/fonts/axios-site/atiza/atizatext-regular-webfont.woff)
+      format("woff"),
+    url(https://static.axios.com/fonts/axios-site/atiza/atizatext-regular-webfont.ttf)
+      format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Atiza;
+  src: url(https://static.axios.com/fonts/axios-site/atiza/atizatext-regularitalic-webfont.woff)
+      format("woff"),
+    url(https://static.axios.com/fonts/axios-site/atiza/atizatext-regularitalic-webfont.ttf)
+      format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Atiza;
+  src: url(https://static.axios.com/fonts/axios-site/atiza/atizatext-bold-webfont.woff)
+      format("woff"),
+    url(https://static.axios.com/fonts/axios-site/atiza/atizatext-bold-webfont.ttf)
+      format("truetype");
+  font-weight: 600;
+  font-style: normal;
+} */
+
+/* Chart title */
+.headline {
+  font-family: var(--font-nb-pro);
+  @include font-clamp(20px, 26px);
+  line-height: 1.3;
+  font-weight: 400;
+  color: $color-body-text;
+  margin-bottom: rem(10);
+}
+
+/* Chart description or legend units */
+.dek {
+  font-family: var(--font-nb-pro);
+  @include font-size(12px);
+  line-height: 1.5;
+  color: $color-body-text-light;
+  margin-bottom: rem(20);
+}
+
+/*=============================================
+=            Extra typography styles            =
+=============================================*/
+
+// /* Subtitle for small multiples */
+// .subhead {
+//   font-family: var(--font-nb-pro);
+//   @include font-size(14px);
+//   line-height: 1.15;
+//   font-weight: 600;
+//   color: $color-body-text;
+//   margin-bottom: rem(10);
+// }
+
+// /* Labels on bar charts or direct labels on line charts */
+// .label {
+//   font-family: var(--font-nb-pro);
+//   @include font-size(16px);
+//   line-height: 1.12;
+//   color: $color-body-text;
+// }
+
+// /* For scatter plots or others where we label the axis */
+// .axis-label {
+//   color: $color-body-text;
+//   font-family: var(--font-nb-pro-mono);
+//   @include font-size(14px);
+//   line-height: 1.43;
+// }
+
+// /* Tick text */
+// .axis-text {
+//   color: $color-charts-axis-text;
+//   font-family: var(--font-nb-pro-mono);
+//   @include font-size(11px);
+//   line-height: 1.18;
+// }
+
+// /* For text annotations in charts */
+// .annotation {
+//   color: $color-body-text;
+//   font-family: var(--font-nb-pro);
+//   @include font-size(14px);
+//   line-height: 1.29;
+// }
+
+// /* Numbers at the end of bars/lines */
+// .annotation--number {
+//   color: $color-body-text;
+//   font-family: var(--font-nb-pro-mono);
+//   @include font-size(16px);
+//   line-height: 1.38;
+// }
+
+// /* All caps label used in stories */
+// .caps-label {
+//   font-family: var(--font-nb-pro);
+//   @include font-size(12px);
+//   line-height: 1.1;
+//   letter-spacing: 0.05em;
+//   text-transform: uppercase;
+// }
+
+/*=====  End of Extra typography styles  ======*/
